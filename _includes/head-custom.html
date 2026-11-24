@@ -1,20 +1,22 @@
 <style>
-  .markdown-body {
-    --ancho-foto-catalogo: 450px;
-  }
-  .markdown-body p img {
-    display: block;
-    max-width: min(100%, var(--ancho-foto-catalogo));
-    height: auto;
-    margin-inline: auto;
-  }
-  .markdown-body .foto-pinza-curva {
-    max-width: var(--ancho-foto-catalogo);
+  .markdown-body .foto-catalogo {
+    width: min(100%, 450px);
     margin-inline: auto;
     overflow: hidden;
   }
-  .foto-pinza-curva img {
+  .markdown-body .foto-catalogo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .markdown-body .foto-pinza-curva img {
     transform: scale(1.28);
     transform-origin: 45% 59%;
+  }
+  .markdown-body .foto-acople {
+    aspect-ratio: 1;
+  }
+  .markdown-body .foto-acople img {
+    transform: translate(-1.7%, -3.8%) scale(1.65);
   }
 </style>

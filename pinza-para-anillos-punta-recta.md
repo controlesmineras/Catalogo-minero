@@ -1,6 +1,9 @@
-# Pinza para anillos de retención, punta recta
-
-Pinza para anillos punta recta<br>
-Pinza para anillos punta 0°
-
-![Imagen de referencia de la pinza de mangos verdes con dos puntas rectas](./pinza-para-anillos-punta-recta.jpg)
+---
+layout: ficha
+title: Pinza para anillos de retención, punta recta
+otros_nombres:
+  - Pinza para anillos punta recta
+  - Pinza para anillos punta 0°
+foto: pinza-para-anillos-punta-recta.jpg
+alt: Pinza de mangos verdes para anillos de retención con punta recta
+---
