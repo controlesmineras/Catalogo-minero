@@ -1,0 +1,7 @@
+---
+layout: default
+---
+<h1>{{ page.title | escape }}</h1>
+<p>{% for nombre in page.otros_nombres %}{{ nombre | escape }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+<p class="foto-catalogo {{ page.clase_foto | escape }}"><img src="{{ page.foto | relative_url }}" alt="{{ page.alt | escape }}"></p>
+{{ content }}

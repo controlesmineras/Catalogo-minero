@@ -1,7 +1,10 @@
-# Adaptador para pernos Split Set
+---
+layout: ficha
+title: Adaptador para pernos Split Set
+otros_nombres:
+  - Chan
+foto: adaptador-split-set.jpg
+alt: Adaptador para instalar pernos de fricción Split Set
+---
 
-**Nombre en la mina:** Chan
-
-**Uso:** Accesorio para instalar pernos de fricción tipo Split Set.
-
-![Imagen de referencia del adaptador](./adaptador-split-set.jpg)
+**Uso.** Accesorio para instalar pernos de fricción tipo Split Set.
