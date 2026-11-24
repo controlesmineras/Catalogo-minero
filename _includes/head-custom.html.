@@ -1,0 +1,8 @@
+<style>
+  .markdown-body p img {
+    display: block;
+    max-width: min(100%, 450px);
+    height: auto;
+    margin-inline: auto;
+  }
+</style>
