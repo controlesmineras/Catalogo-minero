@@ -1,0 +1,81 @@
+.chicago-card {
+  box-sizing: border-box;
+  max-width: 870px;
+  margin: 0 auto;
+  padding: clamp(18px, 4vw, 40px);
+  background: white;
+  color: #1d3545;
+  font: 18px/1.45 Arial, sans-serif;
+}
+.chicago-card h1 {
+  color: #183647;
+  font-size: clamp(28px, 4.2vw, 42px);
+  letter-spacing: -.035em;
+  line-height: 1.09;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.chicago-card .chicago-photo {
+  display: grid;
+  position: relative;
+  justify-items: center;
+  margin: 14px 0 22px;
+}
+.chicago-part, .chicago-credit {
+  position: relative;
+  overflow: hidden;
+}
+.chicago-part {
+  width: min(100%, 398px);
+  aspect-ratio: 244 / 282;
+}
+.chicago-credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 86px;
+  aspect-ratio: 143 / 83;
+}
+.chicago-photo img {
+  position: absolute;
+  display: block;
+  max-width: none;
+  height: auto;
+}
+.chicago-part img {
+  width: 226.64%;
+  left: -59.84%;
+  top: -59.57%;
+}
+.chicago-credit img {
+  width: 386.71%;
+  left: -277.62%;
+  top: -558%;
+}
+.chicago-card .chicago-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 28px;
+  border-top: 2px solid #c3d0d4;
+  padding-top: 20px;
+}
+.chicago-card .chicago-info h2 {
+  color: #37596a;
+  font: bold 1em/1.35 Arial, sans-serif;
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+}
+.chicago-card .chicago-info p, .chicago-card .chicago-info ul {
+  margin: 0;
+  padding: 0;
+}
+.chicago-card .chicago-info ul { list-style: none; }
+.chicago-card .chicago-info li + li { margin-top: 2px; }
+@media (max-width: 620px) {
+  .chicago-card { padding: 12px 0; font-size: 17px; }
+  .chicago-part { width: min(84%, 310px); }
+  .chicago-card .chicago-info { grid-template-columns: 1fr; gap: 14px; }
+  .chicago-credit { width: 60px; }
+}
