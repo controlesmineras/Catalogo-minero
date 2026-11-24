@@ -4,7 +4,9 @@ title: Adaptador para perno SPLIT SET
 otros_nombres:
   - Adaptador de split
   - Chan, shan
-foto: adaptador-split-set.jpg
+foto: adaptador-split-set-4cb1f8e7.jpg
+fotos_anteriores:
+  - adaptador-split-set.jpg
 alt: Dos adaptadores para perno SPLIT SET vistos de lado, con sus extremos orientados en sentidos opuestos
 ---
 
